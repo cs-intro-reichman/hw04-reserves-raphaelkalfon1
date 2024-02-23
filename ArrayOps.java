@@ -46,6 +46,7 @@ public class ArrayOps {
             for (int j = 0; j < m; j++) {
                 if (array1[i] == array2[j]) {
                     found = true;
+                    array2[j] = Integer.MIN_VALUE;
                     break;
                 }
             }
